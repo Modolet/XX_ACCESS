@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{1a1e0bbc-745e-417b-a926-62ddf066cfef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{ffca1f18-4a65-4e97-87d5-7294391de3ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cepluginsdk.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="lauxlib.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="lua.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="luaconf.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="lualib.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="callbacks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mylua.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverControl.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleGuard.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="trace.hpp">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Winheaders.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="ntdef.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="callbacks.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mylua.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DriverControl.cc">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="hook.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source.def">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
